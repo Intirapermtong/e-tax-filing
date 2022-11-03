@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @import "~bootstrap/scss/bootstrap"; */
+
+@import "~bootstrap/scss/bootstrap";
+// /* Importing Datepicker SCSS file. */
+// /* @import "~ngx-bootstrap/datepicker/bs-datepicker";
+
+// @import "~ng-zorro-antd/ng-zorro-antd.min.css"; */
+@import '~bs-stepper/dist/css/bs-stepper.min.css';
+
+/* Add application styles & imports to this file! */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+.textStar {
+  color: red;
+}
+
+

@@ -1,0 +1,8 @@
+<label >Month</label>
+<select class="form-select" aria-label="Default select example"
+        [(ngModel)]="query.month_id" (change)="select($event.target)" >
+  <option *ngFor="let items of month"  [value]="items.id" >
+    {{items.name}}
+  </option>
+
+</select>

@@ -1,0 +1,7 @@
+<label >Year</label>
+<select #selectdata class="form-select" aria-label="Default select example" [(ngModel)]="query.year_name" (change)="select(selectdata.value)" >
+  <!-- <option class="placeholder" value="" selected disabled>Please select</option> -->
+  <option *ngFor="let items of years"  [value]="items" (click)="select(items)">
+    {{items}}
+  </option>
+</select>

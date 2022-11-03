@@ -1,0 +1,7 @@
+<label >Type<span class="textStar"> * </span></label>
+<select class="form-select" aria-label="Default select example" [(ngModel)]="query.ontime" (change)="select($event.target)" >
+
+  <option *ngFor="let items of Time"  [value]="items.name" >
+    {{items.name}}
+  </option>
+</select>
